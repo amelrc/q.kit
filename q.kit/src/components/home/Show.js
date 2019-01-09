@@ -13,7 +13,7 @@ const Slideshow = () => {
   ];
 
   const properties = {
-    duration: 4000,
+    duration: 3000,
     transitionDuration: 500,
     infinite: true,
     indicators: false,

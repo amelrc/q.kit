@@ -3,22 +3,24 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
-      {/* if logged in, render this navbar. else, render only pic navbar */}
+    
+    <div className="holes">
+      <div className="Navbar">
+      
+        <Link className="logo" to="/">
+          <h3>Q.KIT</h3>
+        </Link>
+        
+        <ul className="henk">
+          <li className="henk-li">
+            <Link to="/ingredients">Ingredients</Link>
+          </li>
+          <li>
+            <Link to="/recipe">Recipe</Link>
+          </li>
+        </ul>
 
-      <Link to="/">
-        {/* <h1>Q</h1>
-        <h5>kit</h5> */}
-        <img className="logo" src="sarten.svg" alt="logo" />
-      </Link>
-      <ul className="henk">
-        <li className="henk-li">
-          <Link to="/ingredients">Ingredients</Link>
-        </li>
-        <li>
-          <Link to="/recipe">Recipe</Link>
-        </li>
-      </ul>
+      </div>
     </div>
   );
 };
