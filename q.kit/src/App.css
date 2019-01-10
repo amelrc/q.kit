@@ -1,162 +1,140 @@
 .App {
-   /* text-align: center; */
-   font-family: 'Comfortaa', cursive;
-   
- }
-
- li {
-   list-style-type: none;
- }
-
- a:link {
-   text-decoration: none;
- }
-
- .logo {
-   float: left;
-   height: 200px;
-   margin-left: 100px;
- }
-
- h3 {
-  font-size: 50px;
-  color: black;
-  font-size: 700;
- }
-
- h3:hover {
-  color: #f2d114;
- }
- 
-
- .hole {
-  position: absolute;
-  border-radius: 200% 200% 200% 200%;
-  top: 80px;
-  left: 580px;
-  width: 40%;
-  height: 80%;
-  box-shadow: 0 0 0 9000px #ffffff;
-  z-index: 1;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
 }
 
- .Navbar {
-   position: fixed;
-   /* z-index: 1; */
-   left: 0;
-   right: 0;
- }
+li {
+  list-style-type: none;
+}
 
- .check input {
-   position: absolute;
-   opacity: 0;
-   cursor: pointer;
-   height: 0;
-   width: 0;
- }
+a {
+  text-decoration: none;
+}
 
- body {
-   height: 100%;
-   width: 100%
- }
+.logo {
+  float: left;
+  margin: 3%;
+  font-size: 50px;
+  color: #efc155;
+}
 
- .slide-img {
-   height: 100vh;
-   background-position: center;
-  
- }
+.logo:hover {
+  color: #d2970e;
 
- .henk {
-  justify-content: center;
-  display: block;
-  margin-top: 25%;
-  margin-left: 65%;
-  color: black;
-  font-size: 700;
- }
+}
 
- ul.henk li a {
-   font-size: 30px;
-   font-weight: 700;
-   color: black;
- }
- ul.henk li a:hover {
-  color: #f2d114;
- }
+.Navbar {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
 
- .check:hover input {
+}
+
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.check:hover input {
   background-color: #ccc;
 }
 
- form {
-   display: flex;
-   align-items: baseline;
- }
+body {
+  height: 100%;
+  width: 100%
+}
 
- .AddingIngredients {
-   padding: 440px;
-  
- }
+.slide-img {
+  height: 100vh;
+  background-position: center;
+}
 
- .ingredient-list {
-   grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-   display: grid;
- }
+.henk {
+  align-items: flex-start;
+  padding-left: 0;
+  display: flex;
+  margin-top: 35px;
+  flex-direction: column;
+}
 
- .check {
-   padding-right: 4px;
- }
+ul.henk li a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #efc155;
+}
 
- .ingredient-list form {
-   white-space: pre-wrap;
-   text-align: left;
-   max-width: 100%
- }
+form {
+  display: flex;
+  align-items: baseline;
+}
 
- .card {
-   width: 25%;
- }
+.AddingIngredients {
+  padding: 140px
+}
 
- .card li {
-   text-align: start;
+.ingredient-list {
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  display: grid;
+}
 
- }
+.check {
+  padding-right: 4px;
+}
 
- .card-body li a h5 {
-   color: #efc155
- }
+.ingredient-list form {
+  white-space: pre-wrap;
+  text-align: left;
+  max-width: 100%
+}
 
- .card-body li a:hover {
-   text-decoration-color: #efc155
- }
+.card {
+  width: 25%;
+}
 
- .receta {
-   padding-top: 140px
- }
+.card li {
+  text-align: start;
 
- .btn {
-   margin-left: 10px;
-   background-color: #efc155;
- }
+}
 
- .checkbox-label {
-   margin-left: 4px;
-   font-size: larger;
- }
+.card-body li a h5 {
+  color: #efc155
+}
 
- .ingredient {
-   display: flex;
-   align-items: center;
-   padding-top: 20px;
- }
+.card-body li a:hover {
+  text-decoration-color: #efc155
+}
 
- .btn:hover {
-   color: white;
-   background-color: #d2970e;
+.receta {
+  padding-top: 140px
+}
 
- }
+.btn {
+  margin-left: 10px;
+  background-color: #efc155;
+}
 
- .input-bar {
-   height: 38px;
-   ;
- }
+.checkbox-label {
+  margin-left: 4px;
+  font-size: larger;
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #d2970e;
+
+}
+
+.input-bar {
+  height: 38px;
+  ;
+}
