@@ -12,8 +12,6 @@ class Checkbox extends Component {
 
   ingredientChecked = input => {
     let checkedIngredient = this.state.searchIngredients;
-    // if checked true. then push
-
     checkedIngredient.push(input);
 
     this.setState({
